@@ -1,0 +1,15 @@
+{
+  "name": "bito-cat-toolkit",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Photo upload toolkit for Bito ERP + Supabase",
+  "scripts": {
+    "square":    "python3 scripts/make-square.py",
+    "bito":      "node scripts/upload-bito.mjs",
+    "supabase":  "node scripts/update-supabase.mjs",
+    "sync":      "npm run square && npm run bito && npm run supabase"
+  },
+  "dependencies": {
+    "pg": "^8.11.0"
+  }
+}
