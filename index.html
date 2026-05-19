@@ -41,7 +41,7 @@ header{position:sticky;top:0;z-index:100;background:rgba(10,10,10,.93);backdrop-
 #lb-x{position:absolute;top:14px;right:18px;background:none;border:1px solid var(--border-b);color:var(--text);width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:18px;display:grid;place-items:center;transition:background .15s}#lb-x:hover{background:var(--border-b)}
 ::-webkit-scrollbar{width:4px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--border-b);border-radius:2px}
 
-.family-bar{display:flex;gap:5px;align-items:center;padding:8px 28px;border-bottom:1px solid var(--border);overflow-x:auto;scrollbar-width:thin;scrollbar-color:var(--border-b) transparent}
+.family-bar{position:sticky;top:56px;z-index:99;background:rgba(10,10,10,.97);backdrop-filter:blur(12px);display:flex;gap:5px;align-items:center;padding:8px 28px;border-bottom:1px solid var(--border);overflow-x:auto;scrollbar-width:thin;scrollbar-color:var(--border-b) transparent}
 .family-bar::-webkit-scrollbar{height:3px}.family-bar::-webkit-scrollbar-thumb{background:var(--border-b);border-radius:2px}
 .family-bar-label{color:var(--muted);font-size:10px;white-space:nowrap;margin-right:4px;flex-shrink:0}
 .ffbtn{background:var(--surface);border:1px solid var(--border-b);color:var(--muted);border-radius:var(--r);padding:4px 10px;font-size:10px;cursor:pointer;font-family:inherit;transition:all .15s;white-space:nowrap;flex-shrink:0}
